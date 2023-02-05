@@ -36,7 +36,7 @@ python main.py
 ```
 * To stop the script hit Ctrl + q or close the Console.
 
-#WARNING
+# WARNING
 The Screenshots found on this Website may contain data that appears sensitive.
 I strongly discourage from trying to use this data in any way.
 This site is famous among scammers so there may be some actual sensitive information out there
