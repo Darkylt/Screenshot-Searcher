@@ -36,6 +36,14 @@ python main.py
 ```
 * To stop the script hit Ctrl + q or close the Console.
 
+#WARNING
+The Screenshots found on this Website may contain data that appears sensitive.
+I strongly discourage from trying to use this data in any way.
+This site is famous among scammers so there may be some actual sensitive information out there
+but this site is famous for spreading harmful information such as login details to crypto wallets or similar things.
+If you for example would try to log into a crypto wallet using this information you are allowing the owner to see sensitive Information about you.
+Do not trust any information on prntscr.com!!!
+
 ## Help
 
 The Script closes the Tab automatically after taking a Screenshot.
