@@ -25,7 +25,7 @@ pyautogui_failsave = config['pyautogui_failsave']
 
 def generate_random_string():
     characters = string.ascii_lowercase + string.digits
-    return ''.join(random.choice(characters) for _ in range(7))
+    return ''.join(random.choice(characters) for _ in range(6))
 
 pyautogui.FAILSAFE = pyautogui_failsave
 
