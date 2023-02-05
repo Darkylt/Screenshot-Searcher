@@ -11,15 +11,15 @@ A simple Python script that opens a random Screenshot on prntscr.com, waits for 
 ### Dependencies
 
 * Windows 10
-* Python 3.x
-* PyAutoGUI library
-* JSON library
-* Webbrowser library
-* Time library
+* [Python 3.x]([https://www.python.org/downloads/])
+* [PyAutoGUI library]([https://pypi.org/project/PyAutoGUI/])
+* [JSON library]([https://docs.python.org/3/library/json.html])
+* [Webbrowser library]([https://docs.python.org/3/library/webbrowser.html])
+* T[ime library]([https://docs.python.org/3/library/time.html])
 
 ### Installing
 
-* Got to the [Releases]([url](https://github.com/Darkylt/Screenshot-Searcher/releases)) and download the SS.zip File.
+* Got to the [Releases]([https://github.com/Darkylt/Screenshot-Searcher/releases]) and download the SS.zip File.
 * Unpack it and install the PyAutoGUI Library. To do that you can just run:
 ```
 pip install pyautogui
@@ -45,7 +45,6 @@ I recommend to always have an empty Tab open to make sure this doesn't happen.
 The Failsave Ctrl + q may not work on every machine.
 I recommend to just close the Console instead.
 minique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 * Next Update:
