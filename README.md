@@ -1,40 +1,60 @@
-#Screenshot-Searcher
+# Project Title
 
-A simple Python script that opens a random URL, waits for it to load, and takes a screenshot if it's not an error page.
-##Prerequisites
+Ever wanted to see random screenshots?
 
-    Python 3.x
-    PyAutoGUI library
-    JSON library
-    Webbrowser library
-    Time library
+## Description
 
-##How to use
+A simple Python script that opens a random Screenshot on prntscr.com, waits for it to load, and takes a screenshot if it's not an error page.
 
-    Go to the [Releases]([url](https://github.com/Darkylt/Screenshot-Searcher/releases)) page and download the latest release.
-    Unpack the ZIP File and install the following Library:
-    
-    ###PyAutoGUI
-    `pip install pyautogui`
+## Getting Started
 
-    After that you can execute the main.py file with Python.
-    The Reccomended way to do this is to go into the Command Prompt and navigate to the Folder where the main.py script is located
-    and to run the following command:
-    `python main.py`
-    
-##Variables in config.json file
+### Dependencies
 
-    **output_dir:** The directory where the screenshots will be saved.
-    **failsafe_shortcut:** A keyboard shortcut to stop the script (for example, ctrl+q).
-    **wait_after_screenshot:** The time in seconds to wait after taking a screenshot before opening a new URL.
-    **wait_for_page_load:** The time in seconds to wait for a page to load before taking a screenshot.
-    **image_detection_confidence:** The confidence level for image detection (0.0 to 1.0).
-    **pyautogui_failsave:** The fail-safe setting for PyAutoGUI.
+* Windows 10
+* Python 3.x
+* PyAutoGUI library
+* JSON library
+* Webbrowser library
+* Time library
 
-##Built With
+### Installing
 
-    [Python 3.x]([url](https://www.python.org/downloads/))
-    [PyAutoGUI library]([url](https://pypi.org/project/PyAutoGUI/))
-    [JSON library]([url](https://docs.python.org/3/library/json.html))
-    [Webbrowser library]([url](https://docs.python.org/3/library/webbrowser.html))
-    [Time library]([url](https://docs.python.org/3/library/time.html))
+* Got to the [Releases]([url](https://github.com/Darkylt/Screenshot-Searcher/releases)) and download the SS.zip File.
+* Unpack it and install the PyAutoGUI Library. To do that you can just run:
+```
+pip install pyautogui
+```
+* Open the config.json file and input the Path to the Folder where the Screenshots should be saved.
+* Play around with the Timings to fit your Computer. The Time is measured in seconds.
+
+### Executing program
+
+* Open the command prompt and navigate to the Folder where the main.py file is located.
+* Run the following command:
+```
+python main.py
+```
+* To stop the script hit Ctrl + q or close the Console.
+
+## Help
+
+The Script closes the Tab automatically after taking a Screenshot.
+But some Browsers close when no Tab is open.
+I recommend to always have an empty Tab open to make sure this doesn't happen.
+
+The Failsave Ctrl + q may not work on every machine.
+I recommend to just close the Console instead.
+minique Pizzie  
+ex. [@DomPizzie](https://twitter.com/dompizzie)
+
+## Version History
+* Next Update:
+    * Detection system for detecting if a screenshot is fully visible and to Zoom out if it isn't.
+* 0.2
+    * Added image detection to detect Invalid URL's.
+* 0.1
+    * Basic script that doesn't check for invalid URL's.
+
+## License
+
+It's not Licensed in any way and no one will sue you if you use it.
