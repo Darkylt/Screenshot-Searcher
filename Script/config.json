@@ -1,0 +1,8 @@
+{
+    "output_dir": "C:/Users/paul/OneDrive/Desktop/Coding/ChatGPT/",
+    "failsafe_shortcut": ["ctrl+q"],
+    "wait_after_screenshot": 1,
+    "wait_for_page_load": 5,
+    "image_detection_confidence": 0.5,
+    "pyautogui_failsave": false
+}
