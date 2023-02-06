@@ -56,11 +56,11 @@ minique Pizzie
 
 ## Version History
 * Next Update:
-    * Detection system for detecting if a screenshot is fully visible and to Zoom out if it isn't.
+    * Instead of taking a screenshot it downloads the Image directly.
 * 0.2
     * Added image detection to detect Invalid URL's.
 * 0.1
-    * Basic script that doesn't check for invalid URL's.
+    * Basic script that opens the site and takes a screenshot.
 
 ## License
 
